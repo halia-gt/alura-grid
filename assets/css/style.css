@@ -11,16 +11,13 @@
 }
 
 .cabecalho {
-    background-color: greenyellow;
     grid-area: cabecalho;
 }
  
 .conteudo {
-    background-color: red;
     grid-area: conteudo;
 }
 
 .rodape {
-    background-color: azure;
     grid-area: rodape;
 }
