@@ -1,0 +1,26 @@
+.app {
+    background: #f1f1f1;
+    display: grid;  /* Ativa no pai, tipo display flex */
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas:
+        'cabecalho'
+        'conteudo'
+        'rodape';
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto; /* Como são três conteúdos, temos de colocar três valores */
+}
+
+.cabecalho {
+    background-color: greenyellow;
+    grid-area: cabecalho;
+}
+ 
+.conteudo {
+    background-color: red;
+    grid-area: conteudo;
+}
+
+.rodape {
+    background-color: azure;
+    grid-area: rodape;
+}
